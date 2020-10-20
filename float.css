@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.target1 {
+    background-color: orange;
+    width: 600px;
+    height: 50px;
+}
+
+.target2 {
+    background-color: red;
+    width: 150px;
+    height: 500px;
+    float: left;
+}
+
+.target3 {
+    background-color: green;
+    width: 150px;
+    height: 500px;
+    float: left;
+}
+
+.target4 {
+    background-color: blue;
+    width: 150px;
+    height: 500px;
+    float: left;
+}
+
+.target5 {
+    background-color: black;
+    width: 150px;
+    height: 500px;
+    float: left;
+}
+
+.target6 {
+    background-color: orange;
+    width: 600px;
+    height: 50px;
+    clear: both;
+}
+
+.target_float {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.target0 {
+    background: black;
+    width: 620px;
+    height: 620px;
+}
