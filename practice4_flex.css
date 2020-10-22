@@ -4,25 +4,34 @@
 
 }
 
-nav {
-    width: 1500px;
-    height: fit-content;
+nav,
+footer {
+    width: 1200px;
+    height: 20px;
     display: flex;
     direction: row;
     text-transform: uppercase;
+    justify-content: center;
 }
 
-li {
-    text-decoration: none;
-    text-align: center;
+nav>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    display: block;
+    margin: 5px;
+
 }
 
 main {
-    width: 1500px;
+    width: 1200px;
     height: 150px;
     background-color: darkred;
     color: white;
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -32,6 +41,6 @@ main {
     width: 50px;
     height: 20px;
     border: 2px solid white;
-    border-radius: 10%;
+    border-radius: 30%;
 
 }
